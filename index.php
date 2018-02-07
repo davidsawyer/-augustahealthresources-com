@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Augusta Health Resources</title>
 </head>
 <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
     body {
         background: #0d2540;
         background: -moz-linear-gradient(125deg, #0d2540 0%, #183254 100%);
@@ -16,6 +25,7 @@
             "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
         height: 100vh;
         margin: 0;
+        padding: 20px;
     }
 
     h1 {
