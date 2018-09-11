@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Augusta Health Resources</title>
+    <meta name="Description" content="Find health resources in and near Augusta, Georgia.">
+</head>
+<style>
+    html {
+        box-sizing: border-box;
+        background-color: rgba(30, 30, 30, 0.9);
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    html * {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    body {
+        background-attachment: fixed;
+        background-image:
+            linear-gradient(rgba(30, 30, 30, 0.9), rgba(30, 30, 30, 0.9)),
+            url(/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+            "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        min-height: 100vh;
+    }
+
+    #wrapper {
+        height: 100%;
+        overflow: scroll;
+        padding: 30px 20px 60px;
+        width: 100%;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    h1 {
+        font-family: "Helvetica Neue", sans-serif;
+        font-size: calc(3vw + 15px);
+        font-weight: 600;
+        letter-spacing: 0.2px;
+        line-height: 1.3;
+        margin: 30vh 0 0.75rem;
+        transition-duration: 500ms;
+    }
+
+    h2 {
+        font-weight: normal;
+        margin-top: 0.5rem;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    .title-and-button-wrapper {
+        align-items: baseline;
+        display: flex;
+    }
+
+    #results h3 {
+        cursor: pointer;
+        display: block;
+        margin: 20px 0 10px -10px;
+        padding: 0 0 0 20px;
+        font-size: 22px;
+    }
+
+    #results > div p {
+        margin-left: 30px;
+    }
+
+    #search {
+        background-image: url(/magnifying-glass.svg);
+        background-size: auto;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        display: block;
+        font-size: 22px;
+        margin: 1.5rem auto 20px;
+        padding-left: 1.4em;
+        text-align: center;
+        width: 300px;
+    }
+
+    #categories {
+        columns: 3;
+        max-width: 600px;
+        margin: 0 auto 40px;
+    }
+
+    #categories span {
+        display: block;
+        line-height: 2;
+        white-space: nowrap;
+    }
+
+    #total {
+        opacity: 0.7;
+    }
+
+    #results {
+        margin: auto;
+        max-width: 600px;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    a {
+        color: white;
+    }
+
+    .dim {
+        opacity: 0.7;
+    }
+
+    .google-form {
+        top: 7px;
+        left: 7px;
+        position: absolute;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .google-form .plus {
+        display: inline-block;
+        border: white 2px solid;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        text-align: center;
+        line-height: 19px;
+    }
+
+    .google-form .text {
+        padding-left: 6px;
+    }
+
+    .help {
+        bottom: 7px;
+        right: 7px;
+        position: fixed;
+        text-decoration: none;
+        border: white 2px solid;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .expanded button, .collapsed button {
+        border: none;
+        cursor: pointer;
+        display: block;
+        padding: 0;
+        margin: 0;
+        background: none;
+        font-size: 0;
+        color: transparent;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+    }
+
+    .expanded button::before, .collapsed button::before {
+        color: white;
+        display: block;
+        font-size: 20px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .expanded button::before {
+        content: "\25BC\FE0E";
+    }
+
+    .collapsed button::before {
+        content: "\25B6\FE0E";
+    }
+
+    @media (min-width: 501px) {
+        .dim:hover {
+            opacity: 0.9;
+        }
+    }
+
+    @media (max-width: 600px) {
+        #categories {
+            columns: 2;
+            padding: 0 3rem;
+        }
+    }
+
+    @media (max-width: 500px) {
+        h1 {
+            margin-top: 15px;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        #search, #categories {
+            width: 100%;
+        }
+
+        #search {
+            padding-left: 1.75em;
+        }
+
+        .google-form .text {
+            display: none;
+        }
+
+        #categories {
+            padding: 0;
+        }
+    }
+
+    @media (max-width: 374px) {
+        #categories {
+            columns: unset;
+        }
+
+        #categories span {
+            display: inline;
+            margin-right: 1.1rem;
+        }
+    }
+</style>
+
+<body>
+    <div id="wrapper">
+        <noscript>You will need to enable JavaScript in your browser in order to use this site.</noscript>
+        <h1>Augusta Health Resources</h1>
+        <h2>Find resources available in your community</h2>
+        <input id="search" type="text" name="search" placeholder="Search anything..." autofocus>
+        <div id="categories"></div>
+        <div id="results"></div>
+    </div>
+    <a href="http://myaugustahealthresourcesgoogleform.com" class="google-form dim">
+        <div class="plus" title="Submit a resource">+</div>
+        <div class="text">Submit a resource</div>
+    </a>
+    <a href="mailto:admin@augustahealthresources.com" title="Help" class="help dim">?</a>
+</body>
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,7 @@
+node_modules
+notes.txt
+tasks/node_modules
+
+/vendor/
+
+.vs
