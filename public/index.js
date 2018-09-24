@@ -29,7 +29,7 @@
             resourceName: 'Blood Disorders/Bone Marrow Transplant Cancer Support Group',
             categories: ['Support Group'],
             info:
-                'Third Wednesday of each month \n11:30 am to 1:00 pm\nGeorgia Cancer Out-Patient Center\n1411 Laney Walker Blvd, First Floor, Meditation Room\n\nThis group provides educational and emotional support to patients, families, friends and caregivers.\n\n',
+                'Third Wednesday of each month\n11:30 am to 1:00 pm\nGeorgia Cancer Out-Patient Center\n1411 Laney Walker Blvd, First Floor, Meditation Room\n\nThis group provides educational and emotional support to patients, families, friends and caregivers.\n\n',
             mission: '',
             url: 'https://www.augusta.edu/cancer/community/support-groups.php',
             phone: '706-721-1634',
@@ -181,12 +181,12 @@
             resourceName: 'Safe Homes of Augusta',
             categories: ['Abuse'],
             info:
-                '24 HOUR CRISIS HOTLINE: 706.736.2499\n \n\nSafeHomes is much more than just a shelter.  In fact, some clients never even come into shelter, yet we are able to help them in other ways.  We offer highly-specialized and comprehensive services to assist victims of domestic violence regardless of where they are on their journey.  \n\nAll of our services are completely free, completely confidential and the client\'s safety is always our first priority. \n\nOur Core Services Include:\n\n24-Hour Crisis Hotline\n30-Day Emergency Shelter\nLegal Advocacy\nSupport Groups\nCounseling\nLife Skills Classes\nParenting Classes\nResidential Aftercare\nRural County Outreach\nYouth Programs (Children and Teens)\nCommunity Education and Trainings\nOur 10-County Service Area Includes:\n\nBurke\nColumbia\nGlascock\nJefferson\nLincoln\nMcDuffie\nRichmond\nTaliaferro\nWarren\nWilkes',
+                '24 HOUR CRISIS HOTLINE: 706.736.2499\n\n\nSafeHomes is much more than just a shelter.  In fact, some clients never even come into shelter, yet we are able to help them in other ways.  We offer highly-specialized and comprehensive services to assist victims of domestic violence regardless of where they are on their journey.\n\nAll of our services are completely free, completely confidential and the client\'s safety is always our first priority.\n\nOur Core Services Include:\n\n24-Hour Crisis Hotline\n30-Day Emergency Shelter\nLegal Advocacy\nSupport Groups\nCounseling\nLife Skills Classes\nParenting Classes\nResidential Aftercare\nRural County Outreach\nYouth Programs (Children and Teens)\nCommunity Education and Trainings\nOur 10-County Service Area Includes:\n\nBurke\nColumbia\nGlascock\nJefferson\nLincoln\nMcDuffie\nRichmond\nTaliaferro\nWarren\nWilkes',
             mission:
                 'The mission of SafeHomes is to transform victims of domestic violence into survivors.\n\nWe believe that every person has the right to live without fear and that no one deserves to be abused. Through advocacy, we respect the intrinsic value of each client, regardless of where they are in their journey. Through education, we help end the cycle of violence, one family at a time. And through awareness, we empower our community to take a stand against domestic violence and support victims as they transform their lives into survivors.',
             url: 'http://www.safehomesdv.org/',
             phone: '706-736-2499',
-            address: 'P.O. Box 3187 \nAugusta, GA 30914',
+            address: 'P.O. Box 3187\nAugusta, GA 30914',
             email: 'aimee@safehomesdv.org',
             id: 14
         },
@@ -216,17 +216,30 @@
             id: 16
         },
         {
+            resourceName: 'Soto ALG',
+            categories: ['Disabilities'],
+            info:
+                'At Soto ALG, our mission is to provide support and health services to adults with special needs and their families in Augusta, GA. Our goal is to be a resource, helping families embrace a higher quality of life for their loved ones while creating a support network for every step of life.\n\nFrom events and helpful resources to staff with industry-leading knowledge, we\'re here to help your loved ones live their best life. Learn more about our full range of available services, and contact us with any questions.\n\nServices include: residential, day services, community living support, health services, and children services.',
+            mission:
+                'Soto ALG improves quality of life and promotes independence in the most vulnerable populations by providing supportive and health services delivered in an empowering, compassionate and family style environment.\n\nSoto ALG was founded in 2007 by Allan Soto as a family business to improve the lives of adults with special needs.  ',
+            url: 'https://www.sotoalg.com/',
+            phone: '706.426.4200',
+            address: '3736 Executive Center Drive\nAugusta, GA 30907',
+            email: '',
+            id: 17
+        },
+        {
             resourceName: 'South Carolina Statewide Independent Living Council',
             categories: ['Disabilities'],
             info:
-                'The South Carolina Statewide Independent Living Council (SILC) is a non-profit organization dedicated to promoting Independent Living for people with disabilities throughout the state. SILC members are appointed by the Governor of South Carolina. Federal regulations requires at least 51% of SILC members be people with significant disabilities. The South Carolina SILC believes that people with disabilities should:\n\nbe accepted, respected, valued members of society.\nhave equal opportunities to live, work and participate in their communities.\nbe expected to be productive, active and responsible citizens. \n\nThe core services are:\nInformation & Referral\nPeer Support\nIndependent Living Skills Training\nSystems and Individual Advocacy\nNursing Home & Youth Transition\nThrough these core services and others, CILs strive to empower and encourage people with disabilities to fully participate in their communities. Our intent is to allow any person with a disability to determine the path of their own life.',
+                'The South Carolina Statewide Independent Living Council (SILC) is a non-profit organization dedicated to promoting Independent Living for people with disabilities throughout the state. SILC members are appointed by the Governor of South Carolina. Federal regulations requires at least 51% of SILC members be people with significant disabilities. The South Carolina SILC believes that people with disabilities should:\n\nbe accepted, respected, valued members of society.\nhave equal opportunities to live, work and participate in their communities.\nbe expected to be productive, active and responsible citizens.\n\nThe core services are:\nInformation & Referral\nPeer Support\nIndependent Living Skills Training\nSystems and Individual Advocacy\nNursing Home & Youth Transition\nThrough these core services and others, CILs strive to empower and encourage people with disabilities to fully participate in their communities. Our intent is to allow any person with a disability to determine the path of their own life.',
             mission:
                 'To promote inclusion in all aspects of life for South Carolinians with disabilities. The South Carolina Statewide Independent Living Council (SILC) promotes the independent living philosophy of consumer choice, peer support, self-help, self-determination, equal access, and individual and systems advocacy.',
             url: 'http://scsilc.com/',
             phone: '(803) 217-3209',
             address: '720 Gracern Road, Suite 106 Columbia, SC 29210',
             email: '',
-            id: 17
+            id: 18
         },
         {
             resourceName: 'Still Waters Professional Counseling Services, Inc.',
@@ -239,7 +252,7 @@
             phone: '706-955-9224',
             address: '3711 Executive Center Drive Martinez, GA 30907',
             email: 'admin@stillcorp.com',
-            id: 18
+            id: 19
         },
         {
             resourceName: 'The Hale Foundation',
@@ -251,20 +264,20 @@
             phone: '706-722-3060',
             address: '402 Walker Street Augusta, GA',
             email: 'crichards@thehalefoundation.com',
-            id: 19
+            id: 20
         },
         {
             resourceName: 'The South Carolina Commission for the Blind',
             categories: ['Health'],
             info:
-                'Each year, the Commission for the Blind helps hundreds of men and women who are legally blind remain independent within their homes and communities. The commission accomplishes this goal by providing many valuable services, including orientation and mobility, home management, low vision evaluation and referral to resources within the community. \nThe success of the Commission for the Blind is attributed to our dedicated staff and the individuals served in the program. Since no two individuals are alike, we work with you to provide a personalized experience. Our staff works with you to ensure your concerns are addressed and a plan leading to social and economic independence is developed.\n\nThese services are provided through programs such as the:\n\nStudent Internship Program\nLow Vision Clinic\nSummer Teen Program\nAssistive Technology Program\n',
+                'Each year, the Commission for the Blind helps hundreds of men and women who are legally blind remain independent within their homes and communities. The commission accomplishes this goal by providing many valuable services, including orientation and mobility, home management, low vision evaluation and referral to resources within the community.\nThe success of the Commission for the Blind is attributed to our dedicated staff and the individuals served in the program. Since no two individuals are alike, we work with you to provide a personalized experience. Our staff works with you to ensure your concerns are addressed and a plan leading to social and economic independence is developed.\n\nThese services are provided through programs such as the:\n\nStudent Internship Program\nLow Vision Clinic\nSummer Teen Program\nAssistive Technology Program\n',
             mission:
-                'Our mission is to provide quality individualized vocational rehabilitation services, independent living services and prevention-of-blindness services to blind and visually impaired consumers leading to competitive employment and social and economic independence.\n\nOur goal is to become a national model vocational rehabilitation agency for the blind, demonstrating quality services, accountability, innovation, effectiveness and efficiency.\n\nOur values guide all of our decisions and efforts.\n\nWe value the abilities, dignity and potential of the blind and visually impaired.\nWe value compassionate, professional and committed staff.\nWe value progressive, effective leadership.\nWe value human, fiscal and informational resources.\nWe value the support of the community, the General Assembly, the governor and the federal government. \nWe value employer partners who are receptive to training and employing our consumers.\nWe value collaboration with other training and community-based programs.\n',
+                'Our mission is to provide quality individualized vocational rehabilitation services, independent living services and prevention-of-blindness services to blind and visually impaired consumers leading to competitive employment and social and economic independence.\n\nOur goal is to become a national model vocational rehabilitation agency for the blind, demonstrating quality services, accountability, innovation, effectiveness and efficiency.\n\nOur values guide all of our decisions and efforts.\n\nWe value the abilities, dignity and potential of the blind and visually impaired.\nWe value compassionate, professional and committed staff.\nWe value progressive, effective leadership.\nWe value human, fiscal and informational resources.\nWe value the support of the community, the General Assembly, the governor and the federal government.\nWe value employer partners who are receptive to training and employing our consumers.\nWe value collaboration with other training and community-based programs.\n',
             url: 'http://www.sccb.state.sc.us/',
             phone: '888.335.5951',
             address: '1430 Confederate Avenue\nColumbia, S.C. 29201',
             email: 'publicinfo@sccb.sc.gov',
-            id: 20
+            id: 21
         },
         {
             resourceName: 'Transitional Family Services',
@@ -277,19 +290,19 @@
             phone: '706-364-1404',
             address: '3643 Walton Way Extensio, Building 4, Augusta, GA 30909',
             email: 'bernadette.vipond@pathways.com',
-            id: 21
+            id: 22
         },
         {
             resourceName: 'US TOO - Prostate Cancer Support Group',
             categories: ['Support Group'],
             info:
-                '3rd Tuesday of each month \n7:00 pm to 8:00 pm \nGeorgia Cancer Out-Patient Center\n1411 Laney Walker Blvd, \nFirst Floor Community Conference Room\n\nFor more information call Naomi Williams at 706-721-0472 \nor Nicole Aenchbacher at 706-721-4109.',
+                '3rd Tuesday of each month\n7:00 pm to 8:00 pm\nGeorgia Cancer Out-Patient Center\n1411 Laney Walker Blvd,\nFirst Floor Community Conference Room\n\nFor more information call Naomi Williams at 706-721-0472\nor Nicole Aenchbacher at 706-721-4109.',
             mission: '',
             url: 'https://www.augusta.edu/cancer/community/support-groups.php',
             phone: '706-721-0472',
-            address: '1411 Laney Walker Blvd, \nFirst Floor Community Conference Room',
+            address: '1411 Laney Walker Blvd,\nFirst Floor Community Conference Room',
             email: '',
-            id: 22
+            id: 23
         },
         {
             resourceName: 'Vocational Rehabilitation',
@@ -302,7 +315,7 @@
             phone: '800-832-7526',
             address: '720 Gracern Road, Suite 106',
             email: '',
-            id: 23
+            id: 24
         },
         {
             resourceName: 'Walton Options for Independent Living',
@@ -315,7 +328,7 @@
             phone: '706-724-6262',
             address: '948 Walton Way\nAugusta, GA 30901',
             email: '',
-            id: 24
+            id: 25
         },
         {
             resourceName: 'Willingway',
@@ -328,7 +341,7 @@
             phone: '800-242-9455',
             address: '311 Jones Mill Rd., Statesboro, GA 30458',
             email: 'info@willingway.com',
-            id: 25
+            id: 26
         }
     ]
 
